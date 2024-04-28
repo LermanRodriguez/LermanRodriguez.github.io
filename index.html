@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="shortcut icon" href="./svg/bx-heart-circle.svg" type="image/x-icon">
+    <title>¿Quieres ser mi nv?</title>
+</head>
+<body>
+    <dialog open="" id="modal" class="presentacion">
+        <h2 class="titledialog">¡BIENVENIDA!</h2>
+        <img src="./git/mocha3.gif" class="gitdialog" width="300px" alt="">
+        <p class="textodialog1">Tengo una pregunta que hacerte, espero y sea de tu agrado</p>
+        <h2 class="textodialogo2">¿ESTAS LISTA?</h2>
+        <button id="boton-cerrar" class="buttonmodal">Si</button>
+    </dialog>
+    <div class="container">
+        <div id="gifContainer">
+            <img id="gifContainerImg" src="./git/mocha.gif" alt="Ositos Iniciales" ">
+        </div>
+        <div id="happyGifContainer" style="display: none;">
+            <img src="./git/mocha5final.gif" alt="Ositos Felices" style="width: 100%; height: 100%;">
+        </div> 
+        <div id="happyGifContainer2" style="display: none;">
+            <img src="./git/mocha6final.gif" alt="Ositos Felices" style="width: 100%; height: 100%;">
+        </div>
+        <div id="happyGifContainer3" style="display: none;">
+            <img src="./git/mocha7final.gif" alt="Ositos Felices" style="width: 100%; height: 100%;">
+        </div>
+        <div id="happyGifContainer4" style="display: none;">
+            <img src="./git/mocha9final.gif" alt="Ositos Felices" style="width: 100%; height: 100%;">
+        </div>
+        <div id="sadGifContainer" style="display: none;">
+            <img src="./git/mocha2.gif" alt="Osito Triste" style="width: 80%; height: 80%;">
+        </div>
+        <div id="sadGifContainer1" style="display: none;">
+            <img src="./git/mocha3.gif" alt="Osito Triste" style="width: 80%; height: 80%;">
+        </div>
+        <div id="sadGifContainer2" style="display: none;">
+            <img src="./git/mocha4.gif" alt="Osito Triste" style="width: 80%; height: 80%;">
+        </div>
+        
+        <h1 id="question">¿Quieres ser mi Novia?</h1>
+        <div id="messageContainer" style="display: none;"></div>
+        <form action="https://formspree.io/f/xeqyvpqe"
+        method="POST" target="_blank">
+            <button id="siBtn" name="Respuesta:" value="Si">Sí</button>
+            <button id="noBtn" name="Respuesta:" value="No">No</button>
+        </form>
+        </div>
+    </div>
+    <script src="./js/scriptdialog.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
